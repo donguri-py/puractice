@@ -1,13 +1,13 @@
 
-n = int(input())
+n = list(input())
 l = []
-for i in range(n):
-    l.append(list(map(int, input().split())))
-# print(n)
-# print(l)
-l2 = []
-for i in range(n):
-    l2.append(l[i][1:])
+for i in range(len(n)):
+    l.append(int(n[i]))
 
-for i in range(n):
-    print(*l2[i])
+print(l)
+
+for i in range(len(n)):
+    if i != 0 and (i + 1) % 3 == 0:
+        print(l[i], end=",")
+    else:
+        print(l[i], end="")

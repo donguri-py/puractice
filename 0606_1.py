@@ -1,6 +1,4 @@
 
-dic = {}
-
-for i in range(10):
-    dic[i + 1] = i + 1
-print(dic)
+n = int(input())
+for i in range(20):
+    print(i + 1)
