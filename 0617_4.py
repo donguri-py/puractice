@@ -1,1 +1,2 @@
-print("github and Pycharmの連携")
+for i in range(10):
+    print("github and Pycharmの連携")
